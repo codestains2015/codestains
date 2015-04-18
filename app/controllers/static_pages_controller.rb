@@ -10,4 +10,8 @@ class StaticPagesController < ApplicationController
 
   def components
   end
+
+  def ashish
+    @a = User.all
+  end
 end

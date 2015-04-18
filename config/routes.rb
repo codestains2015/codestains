@@ -1,14 +1,16 @@
 Codestains::Application.routes.draw do
 
-   root 'static_pages#index'
+  devise_for :users
+   root 'static_pages#video'
   #get "static_pages/index"
   #get "static_pages/image"
   #get "static_pages/video"
   #get "static_pages/components"
 
-  match '/', to: 'static_pages#index', via: 'get'
+  match '/index', to: 'static_pages#index', via: 'get'
   match '/image', to: 'static_pages#image', via: 'get'
   match '/video', to: 'static_pages#video', via: 'get'
+  match '/ashish', to: 'static_pages#ashish', via: 'get'
   match '/components', to: 'static_pages#components', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
