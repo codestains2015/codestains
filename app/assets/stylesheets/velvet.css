@@ -285,7 +285,7 @@ h6, .h6 {
 }
 
 .navbar-velvet .navbar-brand {
-  margin: 25px 10px;
+  margin: 10px 10px;
   margin-left: 10px !important;
   text-transform: uppercase;
   color: #fff;
@@ -428,7 +428,7 @@ fieldset[disabled] .navbar-velvet .btn-link:focus {
   margin-bottom: 10px;
 }
 .navbar-velvet.shrink .navbar-brand {
-  margin: 10px 10px;
+  margin: -14px 10px;
 }
 .navbar-velvet.shrink .navbar-brand span {
   opacity: 0;
