@@ -8,17 +8,17 @@
 }
 
 #mission .half.bg {
-  background-image: url("../assets/superfamous-06.jpg");
+  background-image: url("../assets/img1.png");
   background-size: cover;
 }
 
 #services .half.bg {
-  background-image: url("../assets/superfamous-01.jpg");
+  background-image: url("../assets/img2.png");
   background-size: cover;
 }
 
 #portfolio .half.bg {
-  background-image: url("../assets/superfamous-02.jpg");
+  background-image: url("../assets/img3.jpg");
   background-size: cover;
 }
 
