@@ -1,11 +1,13 @@
 class StaticPagesController < ApplicationController
   def index
+
   end
 
   def image
   end
 
   def video
+    @user = Contact.new
   end
 
   def components

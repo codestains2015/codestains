@@ -1,6 +1,8 @@
 Codestains::Application.routes.draw do
 
   devise_for :users
+
+  resources :contacts
    root 'static_pages#video'
   #get "static_pages/index"
   #get "static_pages/image"
