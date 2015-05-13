@@ -3,8 +3,8 @@ development:
   :port: 587
   :Domain: mail.google.com
   :authentication: plain
-  :user_name: priyanko.dey33@gmail.com
-  :password: priyanko123456
+  :user_name: codestains2015@gmail.com
+  :password: codestains2015/
   :enable_starttls_auto: true        
 
 production:
@@ -12,6 +12,6 @@ production:
   :port: 587
   :Domain: mail.google.com
   :authentication: plain
-  :user_name: info@codestains.com
-  :password: code@2015
+  :user_name: codestains2015@gmail.com
+  :password: codestains2015/
   :enable_starttls_auto: true
