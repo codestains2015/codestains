@@ -1,6 +1,6 @@
 class ContactMailer < ActionMailer::Base
 
-  default from: "info@codestains.com"
+  default from: "codestains2015@gmail.com"
 
   def welcome_email(contact)
     @user = contact
@@ -9,7 +9,7 @@ class ContactMailer < ActionMailer::Base
 
    def query_mail(contact)
   	@user = contact
-    mail(:to => "info@codestains.com", :subject => "Getting Quote")
+    mail(:to => "codestains2015@gmail.com", :subject => "Getting Quote")
    end
 
 end
